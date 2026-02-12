@@ -1,5 +1,6 @@
 ---
 title: Sinhwa Hong's Portfolio
+date: 2026-02-12
 tags:
   - portfolio
 ---
@@ -34,7 +35,7 @@ GitHub: https://github.com/budnarae
 
 ## Graphics & Engine
 
-- **Volumetric Aurora | 09-2025 ~ 02-2026**  
+- **[[Volumetric Aurora]] | 09-2025 ~ 02-2026**  
   Developed a real-time aurora rendering plugin based on Unreal Engine 5 and published it on [Fab](https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc).  
   Implemented using Ray Marching-based volume rendering techniques.
 
