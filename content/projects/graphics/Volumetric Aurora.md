@@ -119,9 +119,7 @@ _Distance Field 텍스처. 픽셀의 R값이 곡선으로부터의 거리를 나
 
 **Double Buffering 기법**을 사용해 현재 위치를 읽는 Front Buffer와 새 위치를 저장하는 Back Buffer를 교체하며, 이전 프레임 정보를 유지하면서 연속적인 움직임을 보장한다.
 
-<video width="500" autoplay loop muted playsinline>
-  <source src="aa29967b217cf789208029a70d63c638_MD5.mp4" type="video/mp4">
-</video><br/>
+![[aa29967b217cf789208029a70d63c638_MD5.mp4]]
 
 _Flow 타입의 Front Buffer 시각화. 벡터장의 영향을 받아 입자들이 실시간으로 이동한다_
 
@@ -131,9 +129,13 @@ _Flow 타입의 Front Buffer 시각화. 벡터장의 영향을 받아 입자들�
 
 카메라에서 각 픽셀 방향으로 광선을 발사하고, 일정 간격으로 전진하며 오로라 영역을 지날 때마다 색과 밀도를 누적한다. 각 타입에서 생성된 형태 데이터를 읽어 볼륨 렌더링을 수행한다.
 
-![[1b46f6c42d2f3e4077770cbeffb569c6_MD5.jpg]]
+![[d04ab76ea7be66c45b2e18713024dd47_MD5.mp4]]
 
 _레이 마칭 원리. 카메라에서 발사된 광선이 일정 간격으로 샘플링하며 볼륨 데이터를 누적한다_
+
+![[ddf2897e8d69a3f1520020425eab5059_MD5.mp4]]
+
+_광선이 전진할수록 형태를 갖추어 나가는 오로라_
 
 ### 중첩 발광 처리
 
