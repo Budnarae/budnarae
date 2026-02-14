@@ -1,163 +1,194 @@
 ---
 title: Volumetric Aurora
-date: 2026-02-12
+date: 2026-02-13
 tags:
   - project
   - graphics
   - Unreal_Engine_5
 ---
 
-# 개요
-
 <iframe width="681" height="383" src="https://www.youtube.com/embed/QUAofjz6ewg" title="Volumetric Aurora" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 _실제 사용 영상_
 
-**Development**
-- 기간: 7주
+# 프로젝트 정보
+
+- 개발 기간: 7주
 - 팀: Risk&Benefit (4인)
-- 역할: **Flow Type 오로라 시스템 설계 및 구현** (벡터장 기반 유동 시뮬레이션)
+- 담당 역할: **Flow Type 오로라 시스템 설계 및 구현** (벡터장 기반 유동 시뮬레이션)
+- 팀 멤버:
+	- [김민찬](https://github.com/mcminchan1021)
+	- [김진철](https://github.com/fuenell)
+	- [박선하](https://github.com/Sunha-i)
+	- [홍신화](https://github.com/budnarae)
+- Fab: https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc
+- 공식 문서: https://riskandbenefit.github.io/VolumetricAurora_Docs/docs
 
-**Team Members**
-- [김민찬](https://github.com/mcminchan1021)
-- [김진철](https://github.com/fuenell)
-- [박선하](https://github.com/Sunha-i)
-- [홍신화](https://github.com/budnarae)
+# 개요
 
-**Volumetric Aurora**는 Unreal Engine 5에서 실시간으로 오로라를 생성하고 렌더링하는 플러그인이다. [Fab](https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc)에 무료로 배포 중이다.
+Volumetric Aurora는 Unreal Engine 5 기반의 실시간 오로라 렌더링 플러그인이다.
 
-## 핵심 특징
+핵심 목표는 다음 3가지다.
 
-**1. 입체적인 볼륨 렌더링**  
-기존 2D 텍스처 방식과 달리 **레이 마칭**(카메라에서 광선을 발사해 공간을 탐색하는 기법)을 통해 3차원 공간에서 빛을 누적한다. 덕분에 어느 각도에서 봐도 자연스러운 입체감이 유지되며, 오로라가 겹치는 부분의 색상도 현실적으로 표현된다.
+1. 사용자가 빠르고 직관적으로 원하는 오로라를 만들 수 있을 것
+2. 기본 프리셋을 바로 사용할 수 있으면서도, 필요한 경우 세부 커스터마이징이 가능할 것
+3. 볼륨 렌더링으로 실제 오로라에 가까운 입체감을 표현할 것
 
-**2. 파라미터 기반 실시간 생성**  
-사전 제작된 영상을 반복 재생하는 대신, 사용자가 설정한 파라미터로 매 프레임 형태를 계산한다. 형태와 움직임을 자유롭게 제어할 수 있어 다양한 연출이 가능하다.
+최대한 다양한 형태의 오로라를 지원하기 위해 `Noise`, `Spline`, `Flow` 3가지 타입을 제공한다.
 
-**3. 세 가지 생성 방식**
-- **Noise**: 절차적 노이즈로 생성하는 커튼형 오로라 (대규모 자연스러운 표현)
-- **Spline**: 곡선 경로를 따라 형성되는 오로라 (정확한 형태 제어)
-- **Flow**: 벡터장 기반으로 흐르는 오로라 (물결 같은 유동 표현)
+# 사용법
 
-자세한 사용법은 [공식 문서](https://riskandbenefit.github.io/VolumetricAurora_Docs/docs)에서 확인할 수 있다.
+작업 흐름은 다음 순서로 진행한다.
 
----
-
-# 기술 구조
-
-플러그인은 **제어 → 생성 → 렌더** 3단계로 동작한다.
-
-```mermaid
-
-flowchart TB
-    subgraph control["🎛️ 제어 계층"]
-        A1["사용자 인터페이스<br/>Data Asset"]
-    end
-    
-    subgraph generate["⚙️ 생성 계층"]
-        B1["Compute Shader<br/>GPU 기반 형태 계산"]
-    end
-    
-    subgraph render["🎨 렌더 계층"]
-        C1["Material Shader<br/>Custom HLSL / Pixel Shader"]
-    end
-    
-    control -->|"파라미터 입력<br/>(색상, 크기, 속도)"| generate
-    generate -->|"형태 데이터<br/>(텍스처)"| render
-    
-    style control fill:#FFD000,stroke:#EAB308,stroke-width:3px,color:#1F2937
-    style generate fill:#2C5282,stroke:#1A365D,stroke-width:3px,color:#fff
-    style render fill:#285E61,stroke:#1A4D4E,stroke-width:3px,color:#fff
-    
-```
-
-## 1. 제어 계층
-
-사용자 인터페이스를 통해 색상, 크기, 움직임 속도 등의 파라미터를 입력받아 생성 계층으로 전달한다.
+1. 오로라 타입 선택 (`Noise / Spline / Flow`)
+2. 공통 파라미터 조정 (색, 밀도, 고도, 범위, 감쇠)
+3. 타입별 파라미터 조정
+4. 필요 시 설정을 Data Asset으로 저장해 재사용
 
 ![[9f88b53e643e49f83f5e0c3ca99e1e32_MD5.jpg | 500]]
 _다양한 오로라 파라미터_
 
-파라미터 조합을 Data Asset으로 저장하여 재사용할 수 있다.
-
 ![[a9514ec251d7cb27f2681c5668893a33_MD5.jpg | 500]]
 _Data Asset 형태로 저장된 파라미터_
 
-## 2. 생성 계층
+# 시스템 구조
 
-전달받은 파라미터를 기반으로 **GPU Compute Shader**에서 오로라의 형태를 텍스처로 생성한다. 타입별로 서로 다른 알고리즘을 사용한다.
+플러그인은 역할 기준으로 3개 모듈로 분리한다.
 
-### Noise 타입
+1. `VolumetricAurora` (Runtime)
+- 오로라 액터, 프리셋 데이터, 프레임 업데이트 로직
 
-==Noise 타입은 알고리즘이 단순하여 예외적으로 렌더 계층에서 직접 처리되지만, 문맥상 생성 계층에서 설명한다.==
+2. `VolumetricAuroraEditor` (Editor)
+- 프리셋 관리, 디테일 패널 커스터마이징, 페인터/프리뷰 UI
 
-Simplex Noise를 서로 다른 UV 좌표로 두 번 샘플링한 뒤, 그 차이로 커튼과 같은 형태를 생성한다. UV 좌표 차이(offset)에 연속적인 변위를 적용하면 커튼 형상이 변화하여 마치 흔들리는 것 같은 애니메이션 효과를 줄 수 있다.
+3. `VolumetricAuroraShaders` (Runtime)
+- Compute Shader 등록, 셰이더 소스 경로 매핑
+
+이 구조는 런타임 렌더링 코드와 에디터 제작 도구를 분리해 유지보수와 확장을 단순하게 만든다.
+
+# 구현 원리
+
+## Noise Aurora
+
+Noise 타입은 노이즈 텍스처를 서로 다른 UV 좌표에서 샘플링하고, 샘플 차이를 이용해 커튼형 패턴을 만든다.
+시간에 따라 UV를 이동시키면 막이 흔들리는 듯한 움직임이 생긴다.
+
+```text
+for each pixel_uv:
+  forward_sample_uv = pixel_uv * shape_frequency + scroll_velocity * time
+  backward_sample_uv = pixel_uv * shape_frequency - scroll_velocity * time
+  forward_noise_value = sample_noise(shape_texture, forward_sample_uv)
+  backward_noise_value = sample_noise(shape_texture, backward_sample_uv)
+  curtain_shape = shape_from_difference(forward_noise_value - backward_noise_value, smoothness)
+  mask_value = sample_mask(mask_texture, pixel_uv, mask_frequency, mask_scroll_speed)
+  density = curtain_shape * mask_value * base_density
+```
+
+_Noise 커튼 패턴 생성 핵심 흐름 (의사 코드)_
 
 ![[ae9880400900e9088b9ef28d46772b41_MD5.mp4]]
-
 _Noise 타입 오로라 생성 과정. UV 좌표 변위에 따라 커튼 형상이 변화한다_
 
-### Spline 타입
+## Spline Aurora
 
-1. 오로라의 모양을 3차 베지어 곡선의 형태로 입력받는다.
-2. 곡선을 여러 선분으로 분할한다.
-3. 각 픽셀에서 가장 가까운 선분까지의 거리를 계산해 Distance Field 텍스처를 생성한다.
+Spline 타입은 곡선 경로를 거리장(Distance Field) 텍스처로 변환한 뒤, 경로까지의 거리를 기준으로 밀도를 계산한다.
+거리값이 작을수록 리본 중심에 가깝고, 거리값이 클수록 경계 바깥으로 본다.
+왜곡(distortion)은 노이즈를 이용해 샘플 좌표를 흔들어, 오로라가 일렁이는 애니메이션 효과를 부여한다.
 
-렌더 계층에서는 해당 공간이 곡선과 일정 거리 내에 있을 때만 오로라 입자를 축적함으로서 스플라인 오로라를 렌더링한다.
+```text
+for each pixel_uv:
+  distance_to_spline = sample_distance_field(distance_field_texture, pixel_uv)
+  if distance_to_spline < ribbon_thickness:
+    edge_factor = 1 - saturate(distance_to_spline / ribbon_thickness)
+    distortion_offset = sample_distortion_noise(noise_texture, pixel_uv, time) * distortion_strength
+    density = edge_factor * height_falloff * (1 + distortion_offset)
+  else:
+    density = 0
+```
+
+_Spline 거리장 기반 밀도 계산 핵심 흐름 (의사 코드)_
 
 ![[3ca2fcdb4a169526588bdf82d2dcc780_MD5.jpg | 500]]
-
 _Distance Field 텍스처. 픽셀의 R값이 곡선으로부터의 거리를 나타내며, 거리가 가까울수록 어둡게 표시된다_
 
-### Flow 타입
+## Flow Aurora
 
-벡터장을 기반으로 유동성을 시뮬레이션한다.
+Flow 타입은 벡터장(Vector Field) 기반 시뮬레이션이다.
+벡터장은 각 위치에서 입자가 어느 방향과 강도로 이동할지를 담는 장이다.
+컨트롤 포인트는 위치, 타입, 강도, 감쇠 시작/종료 값을 갖고, 픽셀과의 거리 기반 가중치를 계산해 기본 유속(base flow)에 힘을 더하는 방식으로 벡터장을 지역적으로 수정한다.
 
-1. 텍스처의 각 픽셀을 입자로 간주
-2. 여러 제어점이 입자에 가하는 힘을 합산
-3. 힘을 기반으로 새 위치 계산
+예를 들어 Source는 오로라 입자를 밀어내고, Sink는 끌어당기며, Vortex는 회전 성분을 만든다.
+감쇠 범위(attenuation)는 중심에서 멀어질수록 힘이 얼마나 줄어드는지를 결정한다.
 
-**Double Buffering 기법**을 사용해 현재 위치를 읽는 Front Buffer와 새 위치를 저장하는 Back Buffer를 교체하며, 이전 프레임 정보를 유지하면서 연속적인 움직임을 보장한다.
+시뮬레이션은 더블 버퍼링(Double Buffering)으로 진행한다.
+CS에서는 동일 리소스를 같은 패스에서 입력(SRV)과 출력(UAV)으로 동시에 안전하게 쓰는 데 제약이 있고, 다수 스레드가 같은 위치에 쓰면 데이터 레이스가 발생할 수 있다.
+따라서 매 프레임 `BackBuffer`를 읽고 `FrontBuffer`에 쓴 뒤, `FrontBuffer`를 다음 패스로 전달하며, 마지막에 `BackBuffer`와 `FrontBuffer`를 `swap`한다. 이를 통해 매 프레임 최신화된 계산 결과를 렌더링에 반영할 수 있다.
+
+입자의 흐름(advection)은 위 구조와 맞물리도록 Semi-Lagrangian 방식으로 계산한다.
+Forward advection처럼 "현재 값을 앞으로 뿌리는" 방식은 여러 스레드가 같은 픽셀에 동시에 쓰는 상황을 만들 수 있다.
+Semi-Lagrangian은 반대로 "현재 픽셀에서 과거 위치를 역추적"(`previous_uv = current_uv - velocity * dt`)해 읽기 중심으로 계산하므로, 동시 쓰기 충돌을 줄이고 실시간에서 더 안정적으로 동작한다.
+
+```text
+read_buffer = BackBuffer
+write_buffer = FrontBuffer
+
+for each simulation_cell_uv:
+  flow_velocity = base_flow + sum_control_point_forces(simulation_cell_uv)
+  previous_uv = simulation_cell_uv - flow_velocity * delta_time
+  advected_density = sample(read_buffer, previous_uv)
+  emitted_density = sample_emitter(shape_texture, simulation_cell_uv, time)
+  write_buffer[simulation_cell_uv] = combine(advected_density, emitted_density, obstacle_field)
+
+swap(FrontBuffer, BackBuffer)
+```
+
+_Flow 벡터장 입자의 흐름(advection) + 더블 버퍼링 핵심 흐름 (의사 코드)_
+
+체크포인트 기능은 시뮬레이션 스냅샷을 저장/복원해, 씬 시작 직후 완성된 상태를 바로 보여주는 용도로 사용한다.
 
 ![[aa29967b217cf789208029a70d63c638_MD5.mp4]]
-
 _Flow 타입의 Front Buffer 시각화. 벡터장의 영향을 받아 입자들이 실시간으로 이동한다_
 
-## 3. 렌더 계층
+# 렌더링
 
-**레이 마칭 기반 볼륨 렌더링**을 통해 오로라를 화면에 그린다.
-
-카메라에서 각 픽셀 방향으로 광선을 발사하고, 일정 간격으로 전진하며 오로라 영역을 지날 때마다 색과 밀도를 누적한다. 각 타입에서 생성된 형태 데이터를 읽어 볼륨 렌더링을 수행한다.
+최종 출력은 볼륨 레이마칭으로 계산한다.
+카메라에서 광선을 발사하고 볼륨 내부를 일정 간격으로 전진하며 밀도와 색을 누적해, 평면 텍스처(빌보드/카드)를 여러 장 겹쳐 표현하는 방식보다 깊이감 있는 결과를 만든다.
 
 ![[d04ab76ea7be66c45b2e18713024dd47_MD5.mp4]]
-
 _레이 마칭 원리. 카메라에서 발사된 광선이 일정 간격으로 샘플링하며 볼륨 데이터를 누적한다_
 
 ![[ddf2897e8d69a3f1520020425eab5059_MD5.mp4]]
-
 _광선이 전진할수록 형태를 갖추어 나가는 오로라_
 
-### 중첩 발광 처리
+# 중첩 발광 제어
 
-오로라가 여러 겹 겹치면 밝기가 과도하게 누적되어 하얗게 날아가는 문제가 발생한다. 이를 방지하기 위해 다음과 같은 처리를 수행한다:
+오로라가 겹치는 구간은 밝기가 너무 빨리 올라가 흰색에 가까운 단색으로 뭉개지기 쉽다.
+이 구간은 누적, 감쇠, 톤 정리를 함께 적용해 제어한다.
 
-**에너지 누적과 감쇠**
+```text
+remaining_transmittance = 1
+accumulated_color = 0
 
-- 레이 마칭의 각 스텝에서 투과도를 기반으로 에너지를 누적
-- 이전 스텝의 잔여 에너지를 고려하여 자연스럽게 감쇠
-- 겹칠수록 무한정 밝아지는 대신, 점진적으로 증가 폭이 줄어듦
+for each ray_step:
+  sampled_density = sample_density(ray_step)
+  step_opacity = 1 - clamp(1 - sampled_density, 0, 1)
+  accumulated_color += sample_color(ray_step) * step_opacity * remaining_transmittance
+  remaining_transmittance *= (1 - step_opacity)
 
-**톤 리매핑**
+final_color = tone_shaping(accumulated_color, contrast, pivot, saturation)
+```
 
-- 최종 밝기 분포를 정리하여 전체 밝기 범위를 안정화
-- 형태는 또렷하게 유지하면서도 과포화를 방지
-
-이를 통해 오로라가 겹치는 구간에서도 층위감과 깊이감이 유지된다.
-
----
+_중첩 구간 밝기 포화 방지를 위한 누적/감쇠/톤 셰이핑 흐름 (의사 코드)_
 
 # 결론
 
 Volumetric Aurora는 GPU 기반 형태 생성과 레이 마칭 볼륨 렌더링을 결합한 오로라 시스템이다. 녹화된 영상 대신 절차적 생성 방식을 사용하여 색상과 형태를 실시간으로 제어할 수 있으며, 세 가지 생성 방식을 통해 다양한 오로라 연출을 지원한다.
 
 특히 Flow 타입의 경우 벡터장 기반 시뮬레이션으로 기존에 구현하기 어려웠던 유동적인 오로라 표현을 실시간으로 구현했다.
+
+# 참고 레퍼런스
+
+- [Double Buffering](https://learn.microsoft.com/en-us/windows/uwp/graphics-concepts/swap-chains)
+- [Semi-Lagrangian / Backward Advection](https://en.wikipedia.org/wiki/Semi-Lagrangian_scheme)
+- [Distance Field](https://iquilezles.org/articles/distfunctions/)
+- [Volume Rendering / Ray Marching](https://advances.realtimerendering.com/s2015/The%20Real-time%20Volumetric%20Cloudscapes%20of%20Horizon%20-%20Zero%20Dawn%20-%20ARTR.pdf)
