@@ -39,7 +39,7 @@ GitHub: https://github.com/budnarae
   Developed a real-time aurora rendering plugin based on Unreal Engine 5 and published it on [Fab](https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc).  
   Implemented using Ray Marching-based volume rendering techniques.
 
-- **Custom Game Engine (C++) | 09-2025 ~ 12-2025**  
+- **[[개요| Custom Game Engine (C++)]] | 09-2025 ~ 12-2025**  
   Implemented a custom game engine based on DirectX 11.  
   Developed Forward/Deferred rendering pipelines and post-processing systems.
 
