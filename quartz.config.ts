@@ -68,7 +68,7 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.R2Video({
-        baseUrl: "https://dddbdd307ea412983c4e8a98d9d74430.r2.cloudflarestorage.com",
+        baseUrl: "https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev",
         prefix: "videos",
       }),
       Plugin.GitHubFlavoredMarkdown(),
