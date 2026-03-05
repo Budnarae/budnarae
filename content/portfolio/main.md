@@ -1,5 +1,5 @@
 ---
-title: 홍신화 포트폴리오
+title: main portfolio
 date: 2026-02-12
 tags:
   - portfolio

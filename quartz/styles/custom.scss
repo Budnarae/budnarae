@@ -1,3 +1,25 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+@media print {
+  .sidebar,
+  .graph,
+  .tag-list,
+  .tags,
+  .page-footer {
+    display: none !important;
+  }
+
+  .page > #quartz-body {
+    display: block !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .center,
+  .center > article {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+  }
+}
