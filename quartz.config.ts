@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Budnarae",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -67,6 +67,10 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.R2Video({
+        baseUrl: "https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev",
+        prefix: "videos",
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),

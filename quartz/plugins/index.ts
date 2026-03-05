@@ -54,3 +54,5 @@ declare module "vfile" {
     relativePath: FilePath
   }
 }
+
+export { R2Video } from "./transformers/r2Video"
