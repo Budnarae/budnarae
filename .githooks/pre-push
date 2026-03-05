@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running R2 upload before push..."
+
+powershell -ExecutionPolicy Bypass -File scripts/upload-videos.ps1
+
+if [ $? -ne 0 ]; then
+  echo "R2 upload failed. Push aborted."
+  exit 1
+fi
+
+echo "R2 upload completed."
