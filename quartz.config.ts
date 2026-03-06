@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "budnarae.github.io/budnarae",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["**/_*/**", "**/_*", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

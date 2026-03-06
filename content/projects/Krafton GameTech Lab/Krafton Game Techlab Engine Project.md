@@ -1,5 +1,5 @@
 ---
-title: Krafton Game Techlab Engine Portfolio
+title: Krafton Game Techlab Engine Project
 date: 2026-03-05
 tags:
   - project
@@ -674,27 +674,4 @@ _Physics Asset Editor, Ragdoll Simulation, Vehicle Simulation, Depth of field, C
 
 ---
 
-# 14주차+
-
-[github]()
-
-
-**주제**: Advanced Graphics & Pipeline
-
-**목적**: 프로젝트 이후 확장 가능한 고급 그래픽스 기능과 팀 개발 파이프라인 운영 역량을 확보한다.
-
-**과제**
-- Repository 브랜치 전략 정리 및 운영
-- Compute Shader 기초 적용
-- Vertex Shader 기반 애니메이션(Tree/Grass/Foliage) 구현
-
-**학습 키워드**:
-- Repository Strategy
-- Compute Shader
-- Vertex Shader Animation
-- Foliage Animation
-
-**담당 파트**:
-
-**시연 영상**
 
