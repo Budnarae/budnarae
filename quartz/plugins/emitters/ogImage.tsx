@@ -21,6 +21,13 @@ const defaultOptions: SocialImageOptions = {
   excludeRoot: false,
 }
 
+// Quartz emojimap doesn't include keycap sequence (e.g. 1️⃣ => 31-FE0F-20E3).
+// Normalize to plain characters so OG image generation doesn't crash.
+const KEYCAP_EMOJI_REGEX = /([0-9#*])\uFE0F?\u20E3/g
+function normalizeUnsupportedEmoji(input: string): string {
+  return input.replace(KEYCAP_EMOJI_REGEX, "$1")
+}
+
 /**
  * Generates social image (OG/twitter standard) and saves it as `.webp` inside the public folder
  * @param opts options for generating image
@@ -75,11 +82,14 @@ async function processOgImage(
   const slug = fileData.slug!
   const titleSuffix = cfg.pageTitleSuffix ?? ""
   const title =
-    (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
-  const description =
+    normalizeUnsupportedEmoji(
+      (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix,
+    )
+  const description = normalizeUnsupportedEmoji(
     fileData.frontmatter?.socialDescription ??
-    fileData.frontmatter?.description ??
-    unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
+      fileData.frontmatter?.description ??
+      unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description),
+  )
 
   const stream = await generateSocialImage(
     {
