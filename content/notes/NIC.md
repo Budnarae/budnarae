@@ -1,10 +1,7 @@
-﻿
----
-
-#network 
-
-*Network Interface Card*
-
+﻿---
+title: '*Network Interface Card*'
+tags:
+  - 'network'
 ---
 
 컴퓨터에 네트워크를 연결하기 위한 확장카드.
@@ -22,3 +19,4 @@ NIC는 네트워크의 인터페이스이며 물리적인 네트워크와의 접
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
+

@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux
-
-*주소 정보의 표현*
-
+﻿---
+title: '*주소 정보의 표현*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux'
 ---
 
 sockaddr_in  구조체는 아래의 형태를 가지며, [[bind]]에 주소 정보를 전달하는 용도로 사용된다.
@@ -90,3 +90,4 @@ if (bind(serv_scok, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) == -1)
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+

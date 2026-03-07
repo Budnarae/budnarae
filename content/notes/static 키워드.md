@@ -1,10 +1,7 @@
-﻿
----
-
-#language/cpp 
-
-*static*
-
+﻿---
+title: '*static*'
+tags:
+  - 'language/cpp'
 ---
 
 기존의 C 언어에서 static 키워드는 다음의 의미를 가진다.
@@ -86,6 +83,7 @@ int main(void)
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
+
 
 
 

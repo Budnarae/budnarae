@@ -1,10 +1,7 @@
-﻿
----
-
-#language/cpp 
-
-*mutable*
-
+﻿---
+title: '*mutable*'
+tags:
+  - 'language/cpp'
 ---
 
 **mutable**은 다음의 의미를 가진 키워드이다.
@@ -49,3 +46,4 @@ int main(void)
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
+

@@ -1,10 +1,9 @@
-﻿
----
-
-#security #cryptograph #web
-
-_Json Web Token_
-
+﻿---
+title: 'Json Web Token'
+tags:
+  - 'security'
+  - 'cryptograph'
+  - 'web'
 ---
 
 <iframe width="787" height="443" src="https://www.youtube.com/embed/36lpDzQzVXs" title="JWT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -58,3 +57,4 @@ JWT는 다음과 같은 방식으로 사용된다.
 #참고링크/생활코딩 
 
 ---
+

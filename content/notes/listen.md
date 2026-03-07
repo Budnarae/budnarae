@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux/system_call
-
-*연결 요청 대기 상태로의 진입*
-
+﻿---
+title: '*연결 요청 대기 상태로의 진입*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux/system_call'
 ---
 
 [[bind]]의 함수호출을 통해서 소켓에 주소까지 할당했다면, 이번에는 **listen**의 호출을 통해서 **연결 요청 대기 상태**로 진입해야 한다. 그리고 listen 함수가 호출되어야 클라이언트가 연결요청을 할 수 있는 상태가 된다. 즉, listen 함수가 호출되어야 클라이언트는 연결요청을 위해서 connect 함수를 호출할 수 있다(이전에 connect 함수가 호출되면 오류 발생).
@@ -37,6 +37,7 @@ listen 함수가 호출되면 서버 소켓이 만들어지고, listen 함수의
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+
 
 
 

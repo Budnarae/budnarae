@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux
-
-*inet_ntoa*
-
+﻿---
+title: '*inet_ntoa*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux'
 ---
 
 [[inet_addr]], [[inet_aton]]의 반대 기능을 하는 함수이다.
@@ -26,3 +26,4 @@ char *inet_ntoa(struct in_addr adr);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+

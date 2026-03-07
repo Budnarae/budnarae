@@ -1,8 +1,7 @@
-﻿
----
-
-#language/cpp 
-
+﻿---
+title: 'C++ 언어의 bool 자료형'
+tags:
+  - 'language/cpp'
 ---
 
 #### true와 false 키워드
@@ -55,3 +54,4 @@ bool IsPositive(int num)
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
+

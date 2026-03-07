@@ -1,10 +1,8 @@
-﻿
----
-
-#language/JavaScript #web 
-
-_비동기 처리 끝판왕_
-
+﻿---
+title: '비동기 처리 끝판왕'
+tags:
+  - 'language/JavaScript'
+  - 'web'
 ---
 
 # 개요
@@ -122,3 +120,4 @@ foo();
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
+

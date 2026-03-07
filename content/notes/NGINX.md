@@ -1,10 +1,9 @@
-﻿
----
-
-#web #server/web_server #uncomplete
-
-*engine x*
-
+﻿---
+title: '*engine x*'
+tags:
+  - 'web'
+  - 'server/web_server'
+  - 'uncomplete'
 ---
 
 ==본 문서는 미완성 문서입니다.==
@@ -256,3 +255,4 @@ server {
 #참고링크/nginx_org 
 
 ---
+

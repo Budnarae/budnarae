@@ -1,10 +1,7 @@
-﻿
----
-
-#language/JavaScript 
-
-*temporal dead zone*
-
+﻿---
+title: '*temporal dead zone*'
+tags:
+  - 'language/JavaScript'
 ---
 
 자바스크립트 언어는 코드를 해석하기 전 변수의 초기화에 관련된 코드를 변수의 **선언**과 **초기화**로 분리한 뒤, 변수의 선언 부분만 컨텍스트의 최상단 부분으로 끌어올린다. 그리고 일시적으로 **undefined**를 할당한다. 이러한 동작을 ==호이스팅 hoisting==이라고 한다.
@@ -40,3 +37,4 @@ let j = "I an a let";
 #참고도서/모던_자바스크립트_핵심_가이드 
 
 ---
+

@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux/system_call
-
-*select*
-
+﻿---
+title: '*select*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux/system_call'
 ---
 
 select 함수를 이용하는 것이 멀티 플렉싱 서버의 구현에 있어서 가장 대표적인 방법이다. 그리고 윈도우에서도 이와 동일한 이름으로 동일한 기능을 제공하는 함수가 있기 때문에 이식성에 있어서도 좋은 점수를 줄 수 있다.
@@ -301,3 +301,4 @@ void error_handling(char *buf)
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍 
 
 ---
+
