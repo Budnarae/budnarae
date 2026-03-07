@@ -17,6 +17,7 @@ CPP Module은 C++ 언어 기초부터 객체지향, 템플릿, STL까지 단계�
 - 개발 기간: 42 Seoul Common Core 수행 기간
 - 과정: 42 Seoul Inner Circle
 - 언어: C++
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/CPP%20Module
 
 **주제**: C++ 핵심 문법 및 객체지향 설계 학습
 
@@ -33,5 +34,4 @@ CPP Module은 C++ 언어 기초부터 객체지향, 템플릿, STL까지 단계�
 - Canonical Form
 - Inheritance / Polymorphism
 - Template / STL
-
 

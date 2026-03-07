@@ -19,6 +19,7 @@ C++ 언어를 사용하여 **IRC(Internet Relay Chat) 서버**를 구현하는 �
 - **개발 기간**: 2024.11 ~ 2024.12
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C++
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/ft_irc
 - **팀 멤버**:
 	- [하대진](https://github.com/haddol7)
 	- [석주호](https://github.com/Jokuhus)

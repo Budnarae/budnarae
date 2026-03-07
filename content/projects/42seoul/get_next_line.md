@@ -23,6 +23,7 @@ char *get_next_line(int fd);
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/get_next_line
 
 ---
 

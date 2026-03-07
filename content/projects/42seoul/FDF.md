@@ -18,6 +18,7 @@ _그래픽스 기초_
 - **개발 기간**: 2023.12 ~ 2024.01
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/FdF
 
 ---
 
@@ -100,3 +101,4 @@ sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-d
 **기타**
 - `Space` : 투영법 전환 (등각 투영 ↔ 캐비닛 투영)
 - `ESC` : 종료
+

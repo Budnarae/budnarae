@@ -1,4 +1,4 @@
----
+﻿---
 title: Inception
 date: 2026-03-05
 tags:
@@ -18,6 +18,7 @@ _Docker_
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: Docker / Shell
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/Inception
 
 ---
 
