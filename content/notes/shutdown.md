@@ -1,5 +1,5 @@
 ﻿---
-title: '*shutdown*'
+title: 'shutdown'
 tags:
   - 'network'
   - 'language/c'
@@ -39,4 +39,3 @@ SHUT_RDWR을 사용하면 입출력 스트림이 모두 종료된다.
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

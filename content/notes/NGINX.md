@@ -1,5 +1,5 @@
 ﻿---
-title: '*engine x*'
+title: 'NGINX'
 tags:
   - 'web'
   - 'server/web_server'
@@ -255,4 +255,3 @@ server {
 #참고링크/nginx_org 
 
 ---
-

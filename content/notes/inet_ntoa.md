@@ -1,5 +1,5 @@
 ﻿---
-title: '*inet_ntoa*'
+title: 'inet_ntoa'
 tags:
   - 'network'
   - 'language/c'
@@ -26,4 +26,3 @@ char *inet_ntoa(struct in_addr adr);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

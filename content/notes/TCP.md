@@ -1,5 +1,5 @@
 ﻿---
-title: '*Transmission Control Protocol*'
+title: 'TCP'
 tags:
   - 'network'
 ---
@@ -22,4 +22,3 @@ TCP는 5계층(세션 계층) 이상의 프로토콜에서 통신 데이터를 �
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

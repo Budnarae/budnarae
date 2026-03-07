@@ -1,5 +1,5 @@
 ﻿---
-title: '*socket*'
+title: 'socket'
 tags:
   - 'network'
   - 'language/c'
@@ -31,4 +31,3 @@ int socket(int domain, int type, int protocol);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

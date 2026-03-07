@@ -1,5 +1,5 @@
 ﻿---
-title: '*constant*'
+title: 'const'
 tags:
   - 'language/cpp'
 ---
@@ -61,4 +61,3 @@ void constantFunc() const
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
-

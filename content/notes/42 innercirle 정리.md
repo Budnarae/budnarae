@@ -1,4 +1,8 @@
-﻿
+﻿---
+title: '42 innercirle 정리'
+---
+
+
 #42Seoul 
 
 ---
@@ -396,6 +400,3 @@ _웹 프로그래밍 기초_
 과제를 테스트하기 위해서는 `backend` 경로로 이동하여 `sudo make`하고 호스트에서 chrome을 사용하여 `https://localhost`로 접속하면 된다.
 
 `sudo make fclean`으로 MSA를 내릴 수 있다.
-
-
-

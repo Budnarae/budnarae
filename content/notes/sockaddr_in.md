@@ -1,5 +1,5 @@
 ﻿---
-title: '*주소 정보의 표현*'
+title: 'sockaddr_in'
 tags:
   - 'network'
   - 'language/c'
@@ -90,4 +90,3 @@ if (bind(serv_scok, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) == -1)
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

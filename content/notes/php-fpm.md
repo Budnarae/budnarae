@@ -1,5 +1,5 @@
 ﻿---
-title: '*php fastcgi process manager*'
+title: 'php-fpm'
 ---
 
 **php-fpm**은 다음의 특징을 가진 **FastCGI(fast common gateway interface)** 솔루션이다.
@@ -32,4 +32,3 @@ fastCGI는 Fast Common gate interface의 약자이다.
 #참고링크/php-fpm_org 
 
 ---
-

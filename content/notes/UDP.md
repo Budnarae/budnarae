@@ -1,5 +1,5 @@
 ﻿---
-title: '*User Datagram Protocol*'
+title: 'UDP'
 tags:
   - 'network'
 ---
@@ -17,4 +17,3 @@ UDP는 3계층(네트워크 계층)의 [[IP]]를 5계층(세션 계층) 이상�
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

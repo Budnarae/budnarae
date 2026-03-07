@@ -1,5 +1,5 @@
 ﻿---
-title: '*Asynchronous JavaScript and XML*'
+title: 'Ajax'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -32,4 +32,3 @@ Ajax는 전통적인 방식과 비교했을 때 다음과 같은 장점이 있�
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

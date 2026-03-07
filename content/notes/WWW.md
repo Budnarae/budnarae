@@ -1,5 +1,5 @@
 ﻿---
-title: '*World Wide Web*'
+title: 'WWW'
 tags:
   - 'web'
   - 'network'
@@ -18,4 +18,3 @@ tags:
 #참고도서/모던_웹_디자인을_위한_HTML5_CSS3_입문 
 
 ---
-

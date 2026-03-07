@@ -1,5 +1,5 @@
 ﻿---
-title: '비동기 처리 끝판왕'
+title: 'async await'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -120,4 +120,3 @@ foo();
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

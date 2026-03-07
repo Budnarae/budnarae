@@ -1,5 +1,5 @@
 ﻿---
-title: '*자기 자신의 IP 주소를 나타내는 상수*'
+title: 'INADDR_ANY'
 tags:
   - 'network'
   - 'language/c'
@@ -29,4 +29,3 @@ addr.sin_addr.s_addr = htonl(INADDR_ANY);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

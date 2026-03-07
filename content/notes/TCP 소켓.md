@@ -1,5 +1,5 @@
 ﻿---
-title: '*tcp socket*'
+title: 'TCP 소켓'
 tags:
   - 'network'
   - 'language/c'
@@ -114,7 +114,3 @@ SYN과 ACK를 묶어 보내는 형식의 메세지를 **SYN+ACK** 메세지라�
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-
-
-
-

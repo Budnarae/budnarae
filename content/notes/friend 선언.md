@@ -1,5 +1,5 @@
 ﻿---
-title: '*friend*'
+title: 'friend 선언'
 tags:
   - 'language/cpp'
 ---
@@ -54,4 +54,3 @@ friend 키워드는 다음의 특징을 가진다.
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
-

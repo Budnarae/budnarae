@@ -1,5 +1,5 @@
 ﻿---
-title: '*inet_aton*'
+title: 'inet_aton'
 tags:
   - 'network'
   - 'language/c'
@@ -23,4 +23,3 @@ int inet_aton(const char *string, struct in_addr *addr);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

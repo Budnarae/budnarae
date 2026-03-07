@@ -1,5 +1,5 @@
 ﻿---
-title: '*virtual*'
+title: 'virtual 키워드'
 tags:
   - 'language/cpp'
 ---
@@ -17,4 +17,3 @@ virtual 키워드는 다음의 용도를 가지는 키워드이다.
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
-

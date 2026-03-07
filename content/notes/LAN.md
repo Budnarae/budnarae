@@ -1,5 +1,5 @@
 ﻿---
-title: '*LAN은 Local Area network(근거리 통신망)의 약어이다*'
+title: 'LAN'
 tags:
   - 'network'
 ---
@@ -20,4 +20,3 @@ LAN의 통신을 제어하는 방법에는 이더넷, FDDI, 토근 링 등이 �
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-
