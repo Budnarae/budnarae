@@ -1,4 +1,5 @@
 ﻿---
+title: 'Normal Mapping(위키 문서 번역)'
 tags:
   - graphics
   - translation
@@ -158,3 +159,4 @@ u, v 텍스처 좌표에 대응하는 단위 법선 벡터(unit normal vectors)�
 ---
 
 필요하시면 이 번역을 바탕으로 요약 + 해설, 또는 언리얼/셰이더 관점에서의 적용 방식도 같이 설명드릴까요?
+

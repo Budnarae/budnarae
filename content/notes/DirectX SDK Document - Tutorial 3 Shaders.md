@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 3 Shaders'
 tags:
   - directX11
   - translation
@@ -335,6 +336,7 @@ The first would be creating the source data in vertex data, as we've done in Tut
 The second stage would be to create the shaders which would transform that data for rendering, which we showed in this tutorial.
 
 두번째 단계는 렌더링을 위해 데이터를 변환하는 셰이더를 생성하는 것이다. 이번 튜토리얼에서 이것을 수행했다.
+
 
 
 

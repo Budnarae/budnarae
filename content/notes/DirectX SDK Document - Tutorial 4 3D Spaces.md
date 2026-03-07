@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 4 3D Spaces'
 tags:
   - directX11
   - translation
@@ -916,6 +917,7 @@ cb.mProjection = XMMatrixTranspose( g_Projection );
 g_pImmediateContext->UpdateSubresource( g_pConstantBuffer, 0, NULL, &cb, 0, 0 );
 
 ```
+
 
 
 

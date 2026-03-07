@@ -1,4 +1,5 @@
 ﻿---
+title: 'Lambertian Reflection'
 tags:
   - graphics
   - translation
@@ -77,4 +78,5 @@ While Lambertian reflectance usually refers to the reflection of light by an obj
 람베르트 반사는 보통 물체에 의한 빛의 반사를 가리키지만, 임의의 파동(wave)의 반사에도 적용될 수 있습니다. 예를 들어 초음파 영상(ultrasound imaging)에서는 “거친(rough)” 조직이 람베르트 반사를 보인다고 말하기도 합니다.
 
 ---
+
 

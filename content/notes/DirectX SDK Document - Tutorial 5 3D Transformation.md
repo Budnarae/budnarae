@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 5 3D Transformation'
 tags:
   - directX11
   - translation
@@ -487,6 +488,7 @@ In the code below the tutorial is actually setting the depth buffer to be the ma
 //
 
 ```
+
 
 
 

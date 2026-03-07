@@ -1,4 +1,5 @@
 ﻿---
+title: 'BFG'
 tags:
   - git
 ---
@@ -304,3 +305,4 @@ git push --force
 - BFG 공식 사이트: https://rtyley.github.io/bfg-repo-cleaner/
 - Java Adoptium: https://adoptium.net/
 - Git 공식 문서: https://git-scm.com/docs
+

@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX11 Graphics Pipeline'
 tags:
   - directX11
   - translation
@@ -185,6 +186,7 @@ An input-element description describes each element contained by a single vertex
 In this example of an input-element description, the semantic index (which is the second parameter) is set to zero for all three rows. The semantic index helps distinguish between two rows that use the same semantics. Since there are no similar semantics in this example, the semantic index can be set to its default value, zero.
 
 The third parameter is the _format_. The format (see [**DXGI_FORMAT**](https://learn.microsoft.com/en-us/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)) specifies the number of components per element, and the data type, which defines the size of the data for each element. The format can be fully typed at the time of resource creation, or you may create a resource by using a **DXGI_FORMAT**, which identifies the number of components in an element, but leaves the data type undefined.
+
 
 
 

@@ -1,4 +1,5 @@
 ﻿---
+title: 'GPU Gem3 - Chapter 28. Practical Post-Process Depth of Field'
 tags:
   - graphics
   - post_processing
@@ -512,3 +513,4 @@ Mulder, Jurriaan, and Robert van Liere. 2000. "Fast Perception-Based Depth of Fi
 Potmesil, Michael, and Indranil Chakravarty. 1981. "A Lens and Aperture Camera Model for Synthetic Image Generation." In Proceedings of the 8th Annual Conference on Computer Graphics and Interactive Techniques, pp. 297–305.
 
 Scheuermann, Thorsten. 2004. "Advanced Depth of Field." Presentation at Game Developers Conference 2004. Available online at http://ati.amd.com/developer/gdc/Scheuermann_DepthOfField.pdf.
+

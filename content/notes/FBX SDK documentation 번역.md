@@ -1,4 +1,5 @@
 ﻿---
+title: 'FBX SDK documentation 번역'
 tags:
   - graphics
   - translation
@@ -3219,3 +3220,4 @@ if __name__ == '__main__':
 - FbxLayerElementUV, FbxLayerElementNormal - UV 및 노말 정의
 - FbxLayerElement::EMappingMode - 레이어 요소가 표면에 매핑되는 방법을 지정하는 열거형.
 - FbxLayerElement::EReferenceMode - 레이어 요소의 IndexArray와 DirectArray가 참조되는 방법을 지정하는 열거형.
+

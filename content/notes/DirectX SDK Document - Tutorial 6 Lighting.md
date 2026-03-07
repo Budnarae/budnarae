@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 6 Lighting'
 tags:
   - directX11
   - translation
@@ -267,6 +268,7 @@ Diffuse is a very simple and easy lighting model to compute.
 You can use more complex lighting models to achieve richer and more realistic materials.
 
 더 복잡한 조명 모델을 사용하여 더 풍부하고 사실적인 머티리얼을 구현할 수 있다.
+
 
 
 

@@ -1,4 +1,5 @@
 ﻿---
+title: 'FAnimNode_Root'
 tags:
   - game
   - Unreal_Engine
@@ -231,4 +232,5 @@ Root 없으면 엔진은 StateMachine을 재생할 수 없음.
     
 - AnimGraph를 직접 구현하려면 Root는 필수 구성 요소이다.
     
+
 

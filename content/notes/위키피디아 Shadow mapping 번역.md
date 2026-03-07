@@ -1,4 +1,5 @@
 ﻿---
+title: '위키피디아 Shadow mapping 번역'
 tags:
   - graphics
   - translation
@@ -195,3 +196,4 @@ _들어가는 말_
 - Cascaded Shadow Maps (CSMs)
     
 - Variance Shadow Maps (VSMs)
+

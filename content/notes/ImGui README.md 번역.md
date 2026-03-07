@@ -1,4 +1,5 @@
 ﻿---
+title: 'ImGui README.md 번역'
 tags:
   - translation
   - imgui
@@ -282,4 +283,5 @@ Casey Muratori, Atman Binstock, Mikko Mononen, Emmanuel Briney, Stefan Kamoda, A
 ### License
 
 Dear ImGui는 **MIT 라이선스** 하에 배포됩니다. 자세한 내용은 `LICENSE.txt`를 참고하세요.
+
 

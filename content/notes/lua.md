@@ -1,4 +1,5 @@
 ﻿---
+title: 'lua'
 tags:
   - language/lua
   - just-in-time
@@ -137,3 +138,4 @@ Lua는 **진정한 비대칭 코루틴(true, asymmetric coroutine)** 을 제공�
 이 비대칭 코루틴 기능 위에 손쉽게 대칭 코루틴을 구현할 수도 있습니다.  
 그건 간단한 일입니다.  
 (기본적으로 각 전환(transfer)은 `yield` 다음에 `resume`을 수행하면 됩니다.)
+

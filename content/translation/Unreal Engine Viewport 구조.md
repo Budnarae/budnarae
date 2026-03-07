@@ -1,4 +1,5 @@
 ﻿---
+title: 'Unreal Engine Viewport 구조'
 tags:
   - Unreal_Engine
 ---
@@ -206,3 +207,4 @@ _Slate_
 
   ---
   이렇게 계층적 분리를 통해 각 클래스가 명확한 책임을 가지며, Unreal Engine의 Slate 시스템을 모방한 구조입니다!
+

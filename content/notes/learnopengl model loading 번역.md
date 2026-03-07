@@ -1,4 +1,5 @@
 ﻿---
+title: 'learnopengl model loading 번역'
 tags:
   - graphics
   - translation
@@ -66,3 +67,4 @@ CMake Error at cmake-modules/FindPkgMacros.cmake:110 (message): Required library
 생성된 솔루션을 컴파일한 후 결과 라이브러리 및 DLL 파일은 `code/Debug` 또는 `code/Release` 폴더에 있습니다. 그런 다음 lib와 DLL을 적절한 위치로 이동하고 솔루션에서 링크하고 Assimp의 헤더를 `include` 디렉토리로 복사해야 합니다(헤더 파일은 Assimp에서 다운로드한 파일의 `include` 폴더에 있습니다).
 
 지금까지 Assimp를 컴파일하고 응용 프로그램에 연결했어야 합니다. 아직도 보고되지 않은 오류가 발생하면 언제든지 댓글에서 도움을 요청하십시오.
+

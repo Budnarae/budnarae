@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 1 Direct3D 11 Basics'
 tags:
   - directX11
   - translation
@@ -402,4 +403,5 @@ void Render()
 }
 
 ```
+
 

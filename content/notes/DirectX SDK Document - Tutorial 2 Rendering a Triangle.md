@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 2 Rendering a Triangle'
 tags:
   - directX11
   - translation
@@ -465,6 +466,7 @@ g_pImmediateContext->PSSetShader( g_pPixelShader, NULL, 0 );
 g_pImmediateContext->Draw( 3, 0 );
 
 ```
+
 
 
 

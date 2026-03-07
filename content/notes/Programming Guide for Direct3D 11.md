@@ -1,4 +1,5 @@
 ﻿---
+title: 'Programming Guide for Direct3D 11'
 tags:
   - directX11
   - translation
@@ -223,4 +224,5 @@ Copy
 const char c_szName[] = "mytexture.jpg";
 pTexture->SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1, c_szName );
 Typically, you should compile these calls out of your production version.
+
 

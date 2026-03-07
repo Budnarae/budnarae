@@ -1,4 +1,5 @@
 ﻿---
+title: 'learnopengl.com Shadow Mapping 문서 번역'
 tags:
   - graphics
   - translation
@@ -559,3 +560,4 @@ void main()
 This shows depth values similar to what we've seen with orthographic projection. Note that this is only useful for **debugging**; the depth checks remain the same with orthographic or projection matrices as the **relative depths** do not change.
 
 이것은 직교 투영에서 보았던 것과 유사한 깊이 값을 보여줍니다. 이것은 **디버깅**에만 유용하다는 점에 유의하십시오. **상대적인 깊이**는 변하지 않으므로 깊이 검사는 직교 투영 또는 원근 투영 행렬 모두에서 동일하게 유지됩니다.
+

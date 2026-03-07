@@ -1,4 +1,5 @@
 ﻿---
+title: 'Phong Shading'
 tags:
   - graphics
   - translation
@@ -54,4 +55,5 @@ Gouraud 셰이딩은 색상(color)을 보간하지만, Phong 셰이딩은 다각
 #### Phong 반사 모델
 
 Phong 셰이딩은 Phong 보간 방식과 Phong 반사 모델의 조합을 의미하기도 해요. Phong 반사 모델은 **국소 조명(local illumination)** 모델로, 표면이 빛을 반사하는 방식을 경험적으로 설명합니다. 이 모델은 거친 표면의 확산 반사(diffuse reflection)와 광택 있는 표면의 정반사(specular reflection)를 합친 형태입니다. 퐁은, 반짝이는(shiny) 표면은 작고 강한 하이라이트를 가진 반면, 덜 반짝이는 표면은 더 넓고 점차 사라지는 하이라이트를 갖는다는 관찰에 기반을 두었어요. 또한 이 반사 모델은 **ambient(환경광)** 항을 포함하여, 장면 전체에 퍼지는 약한 산란광을 보정해 줍니다. ([위키백과](https://en.wikipedia.org/wiki/Phong_shading?utm_source=chatgpt.com "Phong shading"))
+
 

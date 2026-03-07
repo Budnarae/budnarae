@@ -1,4 +1,5 @@
 ﻿---
+title: 'Lambert''s cosine law'
 tags:
   - graphics
   - translation
@@ -232,4 +233,5 @@ F_\text{tot} = \pi,\mathrm{sr} \cdot I_{\max}
     
 - **결과: 단위 면적당 밝기 = 그대로**
     
+
 

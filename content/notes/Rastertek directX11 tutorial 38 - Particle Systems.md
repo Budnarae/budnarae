@@ -1,4 +1,5 @@
 ﻿---
+title: 'Rastertek directX11 tutorial 38 - Particle Systems'
 tags:
   - directX11
   - translation
@@ -1789,6 +1790,7 @@ bool ApplicationClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
     }
 
 ```
+
 
 
 

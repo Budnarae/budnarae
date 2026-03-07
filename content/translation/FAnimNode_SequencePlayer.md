@@ -1,4 +1,5 @@
 ﻿---
+title: 'FAnimNode_SequencePlayer'
 tags:
   - game
   - Unreal_Engine
@@ -247,4 +248,5 @@ SequencePlayer의 핵심 기능은 아래 네 가지다:
     
 - StateMachine과 Blend 노드의 기초 구성 요소가 되는 핵심 노드이다.
     
+
 
