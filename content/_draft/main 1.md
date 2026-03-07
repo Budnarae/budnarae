@@ -43,7 +43,7 @@ GitHub: https://github.com/budnarae
   Unreal Engine 5 기반의 실시간 오로라 렌더링 플러그인을 개발하고 [Fab](https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc)에 출시했습니다.  
   Ray Marching 기반 볼륨 렌더링 기법으로 구현했습니다.
 
-- **[[Krafton Game Techlab Engine Project]] | 09-2025 ~ 12-2025**  
+- **[[Krafton Game Tech Lab Engine Project]] | 09-2025 ~ 12-2025**  
   DirectX 11 기반 자체 게임 엔진을 구현했습니다.  
   Forward/Deferred 렌더링 파이프라인과 후처리 시스템을 개발했습니다.
 

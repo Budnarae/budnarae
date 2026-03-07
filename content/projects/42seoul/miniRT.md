@@ -19,6 +19,10 @@ _ray tracing_
 - **개발 기간**: 2024.06 ~ 2024.07
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **팀 멤버**:
+	- [정찬수](https://github.com/FunctionPointerXDD)
+	- [홍신화](https://github.com/budnarae)
+- **담당 역할** : 광선-기하 교차 판정, Phong 조명 모델, 하드 섀도우, 범프맵 텍스처 매핑 구현
 
 ---
 
