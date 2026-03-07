@@ -1,5 +1,5 @@
 ﻿---
-title: 'REpresentational State Transfer'
+title: 'REST API'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -342,4 +342,3 @@ todos 리소스에서 id를 사용하여 todo를 삭제한다. public 폴더에 
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

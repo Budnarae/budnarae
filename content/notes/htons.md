@@ -1,5 +1,5 @@
 ﻿---
-title: '*htons는 [[호스트 바이트 순서 | host network byte order]] to [[네트워크 바이트 순서 | network byte order]] - short variable의 약자이다.*'
+title: 'htons'
 tags:
   - 'network'
   - 'language/c'
@@ -41,4 +41,3 @@ unsigned long  ntohl(unsigned long);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

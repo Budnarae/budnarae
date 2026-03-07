@@ -1,5 +1,5 @@
 ﻿---
-title: '*스트림의 절반만 닫는다*'
+title: 'Half-close'
 tags:
   - 'network'
   - 'language/c'
@@ -82,7 +82,3 @@ shutdown은 소켓의 버퍼만을 닫을 뿐, 리소스는 해제하지 않는�
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-
-
-
-

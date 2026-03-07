@@ -1,5 +1,5 @@
 ﻿---
-title: '*temporal dead zone*'
+title: 'TDZ'
 tags:
   - 'language/JavaScript'
 ---
@@ -37,4 +37,3 @@ let j = "I an a let";
 #참고도서/모던_자바스크립트_핵심_가이드 
 
 ---
-

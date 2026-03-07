@@ -1,5 +1,5 @@
 ﻿---
-title: '*사탄 들린 언어*'
+title: 'JavaScript 기초'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -2886,4 +2886,3 @@ class Child
 #참고도서/혼자_공부하는_자바스크립트 
 
 ---
-

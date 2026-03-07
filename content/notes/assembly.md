@@ -1,5 +1,5 @@
 ﻿---
-title: 'assembly tutorial'
+title: 'assembly'
 tags:
   - 'language/asm'
 ---
@@ -55,5 +55,3 @@ mov $3, %eax
 | byte | 1      |
 | word | 2      |
 |      |        |
-
-

@@ -1,5 +1,5 @@
 ﻿---
-title: '*hyper text markup language*'
+title: 'HTML'
 tags:
   - 'web'
   - 'network'
@@ -97,4 +97,3 @@ HTML 페이지는 다음과 같은 방법을 사용해 주석을 입력한다.
 #참고도서/모던_웹_디자인을_위한_HTML5_CSS3_입문 
 
 ---
-

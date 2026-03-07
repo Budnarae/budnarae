@@ -1,5 +1,5 @@
 ﻿---
-title: '*Network Interface Card*'
+title: 'NIC'
 tags:
   - 'network'
 ---
@@ -19,4 +19,3 @@ NIC는 네트워크의 인터페이스이며 물리적인 네트워크와의 접
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

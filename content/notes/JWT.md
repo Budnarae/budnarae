@@ -1,5 +1,5 @@
 ﻿---
-title: 'Json Web Token'
+title: 'JWT'
 tags:
   - 'security'
   - 'cryptograph'
@@ -57,4 +57,3 @@ JWT는 다음과 같은 방식으로 사용된다.
 #참고링크/생활코딩 
 
 ---
-

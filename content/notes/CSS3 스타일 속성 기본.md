@@ -1,5 +1,5 @@
 ﻿---
-title: '*visual studio에서 Ctrl + Spacebar로 스타일 속성 선택지를 확인할 수 있으므로 미련하게 꾸역꾸역 외우지 말자*'
+title: 'CSS3 스타일 속성 기본'
 tags:
   - 'language/css'
   - 'web'
@@ -1690,4 +1690,3 @@ linear-gradient(<각도>, <색상 블록 - 색상, 위치>, <색상 블록 - 색
 #참고도서/모던_웹_디자인을_위한_HTML5_CSS3_입문 
 
 ---
-

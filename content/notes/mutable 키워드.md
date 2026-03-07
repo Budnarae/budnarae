@@ -1,5 +1,5 @@
 ﻿---
-title: '*mutable*'
+title: 'mutable 키워드'
 tags:
   - 'language/cpp'
 ---
@@ -46,4 +46,3 @@ int main(void)
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
-

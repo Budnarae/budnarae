@@ -1,5 +1,5 @@
 ﻿---
-title: '*JavaScript Object Notation*'
+title: 'JSON'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -124,4 +124,3 @@ console.log(typeof parsed, parsed);
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

@@ -1,5 +1,5 @@
 ﻿---
-title: '*select*'
+title: 'select'
 tags:
   - 'network'
   - 'language/c'
@@ -301,4 +301,3 @@ void error_handling(char *buf)
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍 
 
 ---
-

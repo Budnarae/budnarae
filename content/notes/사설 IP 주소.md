@@ -1,5 +1,5 @@
 ﻿---
-title: '*private IP address*'
+title: '사설 IP 주소'
 tags:
   - 'network'
 ---
@@ -28,4 +28,3 @@ LAN처럼 제한된 작은 범위의 네트워크에서는 사설 IP 주소를 �
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

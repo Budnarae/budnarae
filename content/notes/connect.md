@@ -1,5 +1,5 @@
 ﻿---
-title: '*연결 요청*'
+title: 'connect'
 tags:
   - 'network'
   - 'language/c'
@@ -40,4 +40,3 @@ int connect(int sock, struct sockaddr *servaddr, socklen_t addrlen);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

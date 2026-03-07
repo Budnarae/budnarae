@@ -1,5 +1,5 @@
 ﻿---
-title: 'neo XMLHttpRequest'
+title: 'fetch'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -109,4 +109,3 @@ request.delete('https://jsonplaceholder.typicode.com/todos/1')
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

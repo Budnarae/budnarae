@@ -1,5 +1,5 @@
 ﻿---
-title: '*동적 메모리 할당*'
+title: 'new & delete'
 tags:
   - 'language/cpp'
 ---
@@ -36,4 +36,3 @@ c++에서 동적 할당 기능을 가진 연산자이다. malloc, free와 비교
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
-

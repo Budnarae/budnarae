@@ -1,5 +1,5 @@
 ﻿---
-title: '*소켓에 인터넷 주소를 할당*'
+title: 'bind'
 tags:
   - 'network'
   - 'language/c'
@@ -29,4 +29,3 @@ bind()를 통해 IP 주소와 PORT 번호를 얻은 소켓은 해당 포트로 �
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-

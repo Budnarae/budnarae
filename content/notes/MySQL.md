@@ -1,5 +1,5 @@
 ﻿---
-title: '*MySQL의 my는 개발자의 딸의 이름에서 유래한 것이다.*'
+title: 'MySQL'
 tags:
   - 'database'
   - 'uncomplete'
@@ -228,4 +228,3 @@ ex)
 #참고링크/생활코딩 
 
 ---
-

@@ -1,5 +1,5 @@
 ﻿---
-title: '*public IP address*'
+title: '공인 IP 주소'
 tags:
   - 'network'
 ---
@@ -52,4 +52,3 @@ h : 나머지는 호스트 주소
 #참고도서/후니의_쉽게_쓴_시스코_네트워킹
 
 ---
-

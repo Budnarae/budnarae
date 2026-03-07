@@ -1,5 +1,5 @@
 ﻿---
-title: '*Internet Protocol*'
+title: 'IP'
 tags:
   - 'network'
 ---
@@ -17,4 +17,3 @@ IP는 전송 데이터인 [[패킷]]을 TCP나 UDP 같은 상위 계층에서 �
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

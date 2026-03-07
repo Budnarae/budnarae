@@ -1,5 +1,5 @@
 ﻿---
-title: '서버와의 통신'
+title: 'XMLHttpRequest'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -227,4 +227,3 @@ xhr.onreadystatechange = () => {
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

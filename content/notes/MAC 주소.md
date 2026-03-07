@@ -1,5 +1,5 @@
 ﻿---
-title: '*Media Access Control address*'
+title: 'MAC 주소'
 tags:
   - 'network'
 ---
@@ -21,4 +21,3 @@ MAC 주소의 앞자리 24비트는 제조사의 식별 번호이며, 중복되�
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

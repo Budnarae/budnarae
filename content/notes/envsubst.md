@@ -1,5 +1,5 @@
 ﻿---
-title: '*환경변수 삽입*'
+title: 'envsubst'
 tags:
   - 'linux/cmd'
 ---
@@ -134,4 +134,3 @@ Linux에서 `envsubst`는 `gettext` 패키지에 포함되어 있으므로 다�
 `envsubst`는 환경 변수 기반 설정을 쉽게 관리하도록 돕는 매우 간단하면서도 강력한 도구입니다. ???
 
 ==주의 : 이 명령어는 이미지 빌드 타임에는 환경 변수를 제대로 읽지 못한다. 따라서 반드시 Dockerfile의 RUN이 아니라 ENTRYPOINT로 넘겨서 실행시켜야 한다.==
-

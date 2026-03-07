@@ -1,5 +1,5 @@
 ﻿---
-title: 'node package manager'
+title: 'npm'
 tags:
   - 'language/JavaScript'
   - 'web'
@@ -16,4 +16,3 @@ npm은 자바스크립트 패키지 매니저이다. Node.js에서 사용할 수
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
-

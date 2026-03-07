@@ -1,5 +1,5 @@
 ﻿---
-title: '*WAN은 Wide Area Network(광역 통신망)의 약어이다*'
+title: 'WAN'
 tags:
   - 'network'
 ---
@@ -18,4 +18,3 @@ tags:
 #참고도서/그림으로_이해하는_네트워크_용어
 
 ---
-

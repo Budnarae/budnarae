@@ -1,5 +1,5 @@
 ﻿---
-title: '*연결 요청 대기 상태로의 진입*'
+title: 'listen'
 tags:
   - 'network'
   - 'language/c'
@@ -37,7 +37,3 @@ listen 함수가 호출되면 서버 소켓이 만들어지고, listen 함수의
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
-
-
-
-
