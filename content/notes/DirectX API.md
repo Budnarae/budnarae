@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX API'
 tags:
   - directX11
   - translation
@@ -146,3 +147,4 @@ HRESULT GetBuffer(
 타입: HRESULT
 
 DXGI_ERROR 중 하나를 반환합니다.
+

@@ -1,4 +1,5 @@
 ﻿---
+title: 'Direct3D 11 MSDN - How To; Create a Reference Device'
 tags:
   - directX11
   - translation
@@ -70,3 +71,4 @@ Copy
 You will need to supply the API call with the reference driver type from the [**D3D_DRIVER_TYPE**](https://learn.microsoft.com/en-us/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) enumeration. After the method succeeds, it will return a swap chain interface, a device interface, a pointer to the feature level that was granted by the driver, and an immediate context interface.
 
 For information about limitations creating a reference device on certain feature levels, see [Limitations Creating WARP and Reference Devices](https://learn.microsoft.com/en-us/windows/win32/direct3d11/overviews-direct3d-11-devices-limitations).[How to Use Direct3D 11](https://learn.microsoft.com/en-us/windows/win32/direct3d11/how-to-use-direct3d-11)
+

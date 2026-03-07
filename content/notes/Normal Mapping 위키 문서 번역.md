@@ -1,4 +1,5 @@
 ﻿---
+title: 'Normal Mapping 위키 문서 번역'
 tags:
   - graphics
   - translation
@@ -126,4 +127,5 @@ X: -1에서 +1 : 빨강: 0에서 255 Y: -1에서 +1 : 초록: 0에서 255 Z: 0�
 - Simple Normal Mapper - 오픈 소스 노멀 맵 생성기
 
 ---
+
 

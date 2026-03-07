@@ -1,4 +1,5 @@
 ﻿---
+title: 'rasterTek directX 11 tutorial 1 - IDE 설치'
 tags:
   - directX11
   - translation
@@ -62,3 +63,4 @@ mdsn의 DirectX 11 프로그래밍 가이드를 한 번 훝어보도록 하자
 # 참고자료
 
 [rastertek](https://rastertek.com/)
+

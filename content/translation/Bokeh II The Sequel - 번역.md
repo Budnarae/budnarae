@@ -1,4 +1,5 @@
 ﻿---
+title: 'Bokeh II The Sequel - 번역'
 tags:
   - graphics
   - post_processing
@@ -73,3 +74,4 @@ bokeh 샘플을 마친 후, 나는 "완전히 멋지다"고 말하고 내 인생
 **Draft on depth of field resources | Light is beautiful** - […] Matt Pettineo의 두 번째 글을 언급하는 것을 잊었는데, 그는 더 나은 결과를 얻기 위한 기술 조합을 제안합니다. 사진에서 실제 bokeh의 예 […]
 
 **OpenGL Insights « The Danger Zone** - […] 얼마 전 Charles de Rousiers가 내 Bokeh Depth of Field 샘플을 OpenGL로 적응시켰고, 우리는 최근 출시된 OpenGL Insights에 챕터로 기여했습니다. Bokeh는 […]
+

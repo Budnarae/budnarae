@@ -1,4 +1,5 @@
 ﻿---
+title: 'sol2 Documentation 번역'
 tags:
   - language/lua
   - just-in-time
@@ -2004,4 +2005,5 @@ end
 ```
 
 이 템플릿들을 복사해서 프로젝트에 넣어두고 필요할 때마다 참고하세요! 어떤 부분이 더 필요하신가요?
+
 

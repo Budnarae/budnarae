@@ -1,4 +1,5 @@
 ﻿---
+title: 'FBX Wikipedia 번역'
 tags:
   - translation
   - graphics
@@ -65,3 +66,4 @@ FBX 버전 목록(괄호 안은 대체 이름):
 [5] ↑ Lee, K. S. Ernest (iFire) (2022-03-28). "Add fbx2gltf support for importing .fbx files". Godot. Retrieved 2023-08-21. 프로젝트 폴더에 .fbx 파일을 드래그하거나 배치할 수 있으며 파일을 가져옵니다. 편집기 설정에서 fbx2gltf 바이너리의 위치를 설정합니다.
 
 [6] ↑ Engine, Godot. "Introducing the improved ufbx importer in Godot 4.3". Godot Engine. Retrieved 2024-08-03.
+

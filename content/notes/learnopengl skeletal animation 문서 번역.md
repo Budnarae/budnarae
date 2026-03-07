@@ -1,4 +1,5 @@
 ﻿---
+title: 'learnopengl skeletal animation 문서 번역'
 tags:
   - graphics
   - translation
@@ -822,3 +823,4 @@ int main()
 [Why Quaternions should be used for Rotation](https://www.gamasutra.com/view/feature/131686/rotating_objects_using_quaternions.php): 멋진 gamasutra 문서.
 
 연락처:
+

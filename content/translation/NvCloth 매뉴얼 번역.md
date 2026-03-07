@@ -1,4 +1,5 @@
 ﻿---
+title: 'NvCloth 매뉴얼 번역'
 tags:
   - translation
   - graphics
@@ -857,4 +858,5 @@ cloth 일부 또는 전체가 사라질 수 있는데,
     
 - air drag/lift 감소 또는 비활성화
     
+
 

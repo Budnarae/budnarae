@@ -1,4 +1,5 @@
 ﻿---
+title: 'Imgui wiki Getting Started Win32 + DirectX11 번역본'
 tags:
   - translation
 ---
@@ -164,3 +165,4 @@ ImGui::DestroyContext();
 ```
 
 > That should be all! ([GitHub](https://github.com/ocornut/imgui/wiki/Getting-Started "Getting Started · ocornut/imgui Wiki · GitHub"))
+

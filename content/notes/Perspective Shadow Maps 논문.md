@@ -1,4 +1,5 @@
 ﻿---
+title: 'Perspective Shadow Maps 논문'
 tags:
   - graphics
   - translation
@@ -201,4 +202,5 @@ cosβ/cosα가 커지면 **투영 엘리어싱(projection aliasing)**이 나타�
 ---
 
 전체 논문의 완전한 번역을 제공했습니다. 원문의 모든 내용을 누락 없이 번역했습니다.
+
 

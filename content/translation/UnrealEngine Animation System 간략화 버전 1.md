@@ -1,4 +1,5 @@
 ﻿---
+title: 'UnrealEngine Animation System 간략화 버전 1'
 tags:
   - game
   - Unreal_Engine
@@ -64,3 +65,4 @@ StateMachine → Root → AnimInstance → SkeletalMeshComponent
 [[FAnimNode_SequencePlayer]]
 [[FAnimStateTransition]]
 [[UAnimSequence]]
+

@@ -1,4 +1,5 @@
 ﻿---
+title: 'Degrees of Freedom'
 tags:
   - physics
 ---
@@ -143,3 +144,4 @@ M = 3(N − 1 − j) + Σfi
 3. J. J. Uicker, G. R. Pennock, and J. E. Shigley, 2003, 기계 및 메커니즘 이론, Oxford University Press, New York.
 4. J. M. McCarthy and G. S. Soh, 링크의 기하학적 설계, 제2판, Springer 2010
 5. Pennestrı̀, E.; Cavacece, M.; Vita, L. (2005). "자유도 계산에 관하여: 교육적 관점". Volume 6: 5th International Conference on Multibody Systems, Nonlinear Dynamics, and Control, Parts A, B, and C. 2005 ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. California, US. pp. 1733–1741.
+

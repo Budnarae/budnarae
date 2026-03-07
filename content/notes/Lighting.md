@@ -1,4 +1,5 @@
 ﻿---
+title: 'Lighting'
 tags:
   - graphics
 ---
@@ -17,3 +18,4 @@ _빛이 있으라_
 [[Computing Tangent Space Basis Vectors for an Arbitrary Mesh 번역]]
 [[learnopengl.com Normal-Mapping 문서 번역]]
 [[diffuse-lambersian shading 번역]]
+

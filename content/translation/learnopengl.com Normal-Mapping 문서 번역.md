@@ -1,4 +1,5 @@
 ﻿---
+title: 'learnopengl.com Normal-Mapping 문서 번역'
 tags:
   - graphics
   - translation
@@ -392,3 +393,4 @@ mat3 TBN = mat3(T, B, N)
 - [How Normal Mapping Works](https://www.youtube.com/watch?v=LIOPYmknj5Q): TheBennyBox의 노멀 매핑 작동 방식에 대한 좋은 비디오 튜토리얼.
 - [Normal Mapping Mathematics](https://www.youtube.com/watch?v=4FaWLgsctqY): TheBennyBox의 노멀 매핑 뒤의 수학에 관한 유사한 비디오.
 - [Tutorial 13: Normal Mapping](http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-13-normal-mapping/): opengl-tutorial.org의 노멀 매핑 튜토리얼
+

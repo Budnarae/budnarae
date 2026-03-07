@@ -1,4 +1,5 @@
 ﻿---
+title: 'sol2'
 tags:
   - language/lua
   - just-in-time
@@ -932,3 +933,4 @@ int main() {
 - 저수준 스택 API와 동일한 이점과 편의성을 얻지만 지정할 수 있는 객체에 넣기 위한 [make_reference/make_object](https://sol2.readthedocs.io/en/latest/api/make_reference.html) 편의 함수
 - Lua 레지스트리에 복사하지 않고 제로 오버헤드 sol 추상화를 갖기 위한 [stack references](https://sol2.readthedocs.io/en/latest/api/stack_reference.html)
 - 오버로드된 함수가 있는 경우 [오버로드 해결](https://sol2.readthedocs.io/en/latest/api/resolve.html); 더 깨끗한 캐스팅 유틸리티. 기본 매개변수를 에뮬레이트하려면 이것을 사용해야 합니다
+

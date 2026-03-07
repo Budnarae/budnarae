@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 0 Win32 Basics'
 tags:
   - directX11
   - translation
@@ -130,4 +131,5 @@ These are the minimum steps required to set up the window object which is requir
 If we complie and run this code, we will see a window with a blank white background.
 
 이 코드를 컴파일하여 실행시키면, 우리는 빈 하얀 배경을 가진 창을 보게 될 것이다.
+
 

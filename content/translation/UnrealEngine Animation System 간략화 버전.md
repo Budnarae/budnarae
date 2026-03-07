@@ -1,4 +1,5 @@
 ﻿---
+title: 'UnrealEngine Animation System 간략화 버전'
 tags:
   - game
   - Unreal_Engine
@@ -406,3 +407,4 @@ Evaluate 단계에서 **현재 State의 AnimNode를 Evaluate하여 Pose(본 배�
     
 
 어떤 것을 다음으로 볼까?
+

@@ -1,4 +1,5 @@
 ﻿---
+title: 'GPU Gem 3 Cascade Shadow 문서 번역'
 tags:
   - graphics
   - translation
@@ -776,3 +777,4 @@ Zhang, Fan, Hanqiu Sun, Leilei Xu, and Kit-Lun Lee. 2007. "Hardware-Accelerated 
 **감사의 말**
 
 모든 스크린샷은 Silent Grove Studios의 허가를 받아 Dawnspire: Prelude (http://www.dawnspire.com)에서 가져왔습니다. 이미지 준비를 도와준 Anders Hammervald (anders@hammervald.com)의 진심 어린 도움에 감사드립니다. 설명 그림에 사용된 모델은 http://www.planetquake.com에서 다운로드했습니다.
+

@@ -1,4 +1,5 @@
 ﻿---
+title: 'DirectX SDK Document - Tutorial 7 Texture Mapping and Constant Buffer'
 tags:
   - directX11
   - translation
@@ -341,6 +342,7 @@ cb.vMeshColor = g_vMeshColor;
 g_pImmediateContext->UpdateSubresource( g_pCBChangesEveryFrame, 0, NULL, &cb, 0, 0 );
 
 ```
+
 
 
 

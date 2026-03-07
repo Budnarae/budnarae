@@ -1,4 +1,5 @@
 ﻿---
+title: 'Gouraud shading'
 tags:
   - graphics
   - translation
@@ -76,4 +77,5 @@ Any linear interpolation of intensity causes derivative discontinuities which tr
 강도(intensity)를 선형 보간할 경우, 도함수의 불연속성(discontinuities in derivative)이 발생하여 마하 밴드(Mach bands)를 유발합니다. 이는 구로우 셰이딩에서 흔한 시각적 인공 효과(artifact)입니다.
 
 ---
+
 

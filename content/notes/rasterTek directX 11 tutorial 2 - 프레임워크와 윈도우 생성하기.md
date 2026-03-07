@@ -1,4 +1,5 @@
 ﻿---
+title: 'rasterTek directX 11 tutorial 2 - 프레임워크와 윈도우 생성하기'
 tags:
   - directX11
   - translation
@@ -1025,6 +1026,7 @@ Press the escape key to quit after the window displays.
 # 참고자료
 
 [rastertek](https://rastertek.com/)
+
 
 
 

@@ -1,4 +1,5 @@
 ﻿---
+title: 'diffuse-lambersian shading 번역'
 tags:
   - graphics
   - translation
@@ -230,3 +231,4 @@ Vec3f castRay(
 ---
 
 번역이 완료되었습니다. 이 내용은 컴퓨터 그래픽스에서 람베르시안 셰이딩의 수학적 원리와 구현 방법에 대한 상세한 설명입니다.
+

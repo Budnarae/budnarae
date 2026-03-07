@@ -1,4 +1,5 @@
 ﻿---
+title: 'High-Level Shader Language Specification(Working Draft August 7, 2025)'
 tags:
   - language/hlsl
 ---
@@ -1229,6 +1230,7 @@ HLSL의 다음 엔티티들은 내부 연결성을 가진다.
 - 지역 변수들
 - 지역 클래스들과 그것들의 멤버 함수들
 - `typedefs, enumerations, enumerators`같은 다른 엔티티들이 함수 스코프 또는 함수 내부의 블록 스코프 내부에서 선언된 경우
+
 
 
 

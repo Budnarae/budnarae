@@ -1,4 +1,5 @@
 ﻿---
+title: 'HLSL'
 tags:
   - graphics
   - directX11
@@ -563,6 +564,7 @@ Windows 8부터 HLSL은 최소 정밀도(minimum precision) 스칼라 데이터 
 | min16uint  | minimum 16-bit unsigned integer.    |
 
 스칼라 리터럴에 대해 더 많은 정보를 원한다면, [Grammer](https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-appendix-grammar)를 참고하라.
+
 
 
 

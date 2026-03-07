@@ -1,4 +1,5 @@
 ﻿---
+title: 'F-Number 위키피디아 번역'
 tags:
   - graphics
 ---
@@ -261,3 +262,4 @@ F-number에 대한 표기법도 20세기 초반에 매우 다양했습니다. �
 33. Ives, Herbert Eugene (1920). Airplane Photography (Google). Philadelphia: J. B. Lippincott. p. 61. ISBN 9780598722225. Retrieved 2007-03-12.
 34. Mees, Charles Edward Kenneth (1920). The Fundamentals of Photography. Eastman Kodak. p. 28. Retrieved 2007-03-12.
 35. Derr, Louis (1906). Photography for Students of Physics and Chemistry (Google). London: Macmillan. p. 83. Retrieved 2007-03-12.
+

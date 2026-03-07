@@ -1,4 +1,5 @@
 ﻿---
+title: 'Computing Tangent Space Basis Vectors for an Arbitrary Mesh 번역'
 tags:
   - graphics
   - translation
@@ -161,3 +162,4 @@ void CalculateTangentArray(long vertexCount, const Point3D *vertex, const Vector
     delete[] tan1;
 }
 ```
+
