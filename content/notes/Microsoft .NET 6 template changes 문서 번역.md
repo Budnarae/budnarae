@@ -1,10 +1,9 @@
-﻿
----
-
-#language/csharf #platform #translation
-
-_.NET tutorial_
-
+﻿---
+title: '.NET tutorial'
+tags:
+  - 'language/csharf'
+  - 'platform'
+  - 'translation'
 ---
 
 # C# 콘솔 앱 템플릿의 최상위 문 생성
@@ -177,3 +176,4 @@ class Program
 Visual Studio는 동일한 템플릿을 기반으로 다음 프로젝트를 만들 때 이 옵션의 값을 유지한다. 따라서 다음번에 콘솔 앱 프로젝트를 만들 때는 기본적으로 "최상위 문을 사용하지 않음" 확인란이 선택되어 있을 것이다. Program.cs 파일의 내용은 전역 Visual Studio 텍스트 편집기 설정이나 EditorConfig 파일에 정의된 코드 스타일에 따라 다를 수 있다.
 
 더 자세한 정보는 "EditorConfig로 이식 가능한 사용자 지정 편집기 설정 만들기" 및 "옵션, 텍스트 편집기, C#, 고급" 문서를 참조한다.
+

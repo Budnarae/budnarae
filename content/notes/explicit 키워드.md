@@ -1,8 +1,7 @@
-﻿
----
-
-#language/cpp
-
+﻿---
+title: 'explicit 키워드'
+tags:
+  - 'language/cpp'
 ---
 
 C++ 언어에서는 대입 연산자를 사용하여 객체 간 복사를 할 수 있다. [^1]
@@ -38,3 +37,4 @@ explicit SoSimple(const SoSimple &copy) : num1(copy.num1), num2(copy.num2)
 ---
 
 [^1]: [[복사 생성자]] 참고
+

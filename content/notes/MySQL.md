@@ -1,10 +1,8 @@
-﻿
----
-
-#database #uncomplete
-
-*MySQL의 my는 개발자의 딸의 이름에서 유래한 것이다.*
-
+﻿---
+title: '*MySQL의 my는 개발자의 딸의 이름에서 유래한 것이다.*'
+tags:
+  - 'database'
+  - 'uncomplete'
 ---
 
 ==들어가기에 앞서==
@@ -230,3 +228,4 @@ ex)
 #참고링크/생활코딩 
 
 ---
+

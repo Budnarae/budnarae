@@ -1,10 +1,8 @@
-﻿
----
-
-#language/JavaScript #web
-
-*사탄 들린 언어*
-
+﻿---
+title: '*사탄 들린 언어*'
+tags:
+  - 'language/JavaScript'
+  - 'web'
 ---
 
 # 자바스크립트란?
@@ -2888,3 +2886,4 @@ class Child
 #참고도서/혼자_공부하는_자바스크립트 
 
 ---
+

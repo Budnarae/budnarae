@@ -1,8 +1,7 @@
-﻿
----
-
-#ect
-
+﻿---
+title: 'ANSI escape code'
+tags:
+  - 'ect'
 ---
 
 터미널이 가져야 할 기본적인 동작들을 모아 표준화시킨 것.
@@ -18,3 +17,4 @@
 #참고링크/ANSI_escape_code_깃헙_정리자료
 
 ---
+

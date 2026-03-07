@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux/system_call
-
-*클라이언트의 연결 요청 수락*
-
+﻿---
+title: '*클라이언트의 연결 요청 수락*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux/system_call'
 ---
 
 [[listen]]의 호출 이후에 클라이언트의 연결 요청이 들어왔다면, 들어온 순서대로 연결 요청을 수락해야 한다.
@@ -32,6 +32,7 @@ int accept(int sock, struct sockaddr *addr, socklen_t *addrlen);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+
 
 
 

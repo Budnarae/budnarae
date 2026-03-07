@@ -1,10 +1,7 @@
-﻿
----
-
-#language/asm 
-
-_assembly tutorial_
-
+﻿---
+title: 'assembly tutorial'
+tags:
+  - 'language/asm'
 ---
 
 # 개요
@@ -58,4 +55,5 @@ mov $3, %eax
 | byte | 1      |
 | word | 2      |
 |      |        |
+
 

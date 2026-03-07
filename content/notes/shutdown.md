@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux/system_call
-
-*shutdown*
-
+﻿---
+title: '*shutdown*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux/system_call'
 ---
 
 **shutdown**은 [[Half-close]]를 구현하기 위하여 사용되는 시스템 콜로, 소켓이 보유하고 있는 두 개의 스트림 중 한 스트림만을 끊는 기능을 가지고 있다.
@@ -39,3 +39,4 @@ SHUT_RDWR을 사용하면 입출력 스트림이 모두 종료된다.
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+

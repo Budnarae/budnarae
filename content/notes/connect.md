@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux/system_call
-
-*연결 요청*
-
+﻿---
+title: '*연결 요청*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux/system_call'
 ---
 
 클라이언트는 아래의 시스템 콜을 통해 서버에 연결 요청을 송신한다.
@@ -40,3 +40,4 @@ int connect(int sock, struct sockaddr *servaddr, socklen_t addrlen);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+

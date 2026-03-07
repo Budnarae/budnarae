@@ -1,10 +1,10 @@
-﻿
----
-
-#network #language/c #socket_programming #linux
-
-*inet_addr*
-
+﻿---
+title: '*inet_addr*'
+tags:
+  - 'network'
+  - 'language/c'
+  - 'socket_programming'
+  - 'linux'
 ---
 
 [[sockaddr_in#^d7a9de | sockaddr_in]]의 멤버 sin_addr에는 32비트 정수형으로 ip 주소를 저장해야 한다.  **inet_addr**은 **aaa.bbb.ccc.ddd** 꼴의 문자열로 표현된 ip 주소를  32비트 정수로 변환하는 번거로운 작업을 수행한다. 또한, 변환 과정에서 [[네트워크 바이트 순서]]로의 변환도 동시에 지원한다.
@@ -28,3 +28,4 @@ in_addr_t inet_addr(const char *string);
 #참고도서/윤성우의_열혈_TCP_IP_소켓_프로그래밍
 
 ---
+

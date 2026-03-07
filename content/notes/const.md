@@ -1,10 +1,7 @@
-﻿
----
-
-#language/cpp 
-
-*constant*
-
+﻿---
+title: '*constant*'
+tags:
+  - 'language/cpp'
 ---
 
 **const**는 대상을 상수화시키는 역할을 한다.
@@ -64,3 +61,4 @@ void constantFunc() const
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
+

@@ -1,10 +1,7 @@
-﻿
----
-
-#linux/cmd
-
-*Secured SHell*
-
+﻿---
+title: '*Secured SHell*'
+tags:
+  - 'linux/cmd'
 ---
 
 ssh는 원격으로 다른 환경에 연결하기 위한 도구이다.
@@ -62,5 +59,6 @@ User [연결에 사용할 계정]
 Port [연결 대상 port. 서버가 default port인 22번 포트를 사용하면 필요 없음]
 IdentityFile [인증에 사용할 ssh private key 경로. 공개 키 인증을 하지 않는다면 필요 없다]
 ```
+
 
 

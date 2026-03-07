@@ -1,10 +1,7 @@
-﻿
----
-
-#language/cpp 
-
-*friend*
-
+﻿---
+title: '*friend*'
+tags:
+  - 'language/cpp'
 ---
 
 friend 선언은 다음의 기능을 하는 키워드이다.
@@ -57,3 +54,4 @@ friend 키워드는 다음의 특징을 가진다.
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
 ---
+

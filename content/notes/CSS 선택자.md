@@ -1,10 +1,8 @@
-﻿
----
-
-#web #language/css
-
-**
-
+﻿---
+title: '**'
+tags:
+  - 'web'
+  - 'language/css'
 ---
 
 # 선택자란?
@@ -974,3 +972,4 @@ nth-child 선택자와 nth-last-child 선택자의 괄호 안에 수열을 넣�
 #참고도서/모던_웹_디자인을_위한_HTML5_CSS3_입문 
 
 ---
+

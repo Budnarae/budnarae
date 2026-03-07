@@ -1,10 +1,9 @@
-﻿
----
-
-#language/csharf #platform #translation
-
-_.NET_
-
+﻿---
+title: '.NET'
+tags:
+  - 'language/csharf'
+  - 'platform'
+  - 'translation'
 ---
 
 [원본](https://learn.microsoft.com/en-us/dotnet/core/introduction)
@@ -84,4 +83,5 @@ ASP.NET Core와 Windows Forms 같은 **앱 스택**은 하위 수준의 라이�
 - **NET Framework** -- .NET의 원조이다. 윈도우 및 윈도우 서버의 광범위한 기능을 제공한다. 현재 활발하게 지원되며 유지보수 중이다.
 - **Mono** -- .NET의 원조 커뮤니티 및 오픈 소스 구현체이다. .NET Framework의 크로스 플랫폼 구현체이다. 안드로이드, iOS, WebAssembly를 위해 활발하게 지원된다.
 - **.NET (Core)** -- 현대적인 .NET이다. .NET의 크로스 플랫폼 및 오픈 소스 구현체로, 클라우드 시대를 위해 재고되었음에도 불구하고 .NET Framework와 상당한 호환성을 유지한다. 리눅스, macOS, 윈도우를 위해 활발하게 지원된다.
+
 

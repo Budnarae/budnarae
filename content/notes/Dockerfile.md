@@ -1,10 +1,8 @@
-﻿
----
-
-#docker #uncomplete 
-
-*Dockerfile*
-
+﻿---
+title: '*Dockerfile*'
+tags:
+  - 'docker'
+  - 'uncomplete'
 ---
 
 **Dockerfile**은 [[이미지]]를 직접 만들기 위한 설정 파일이다.
@@ -247,3 +245,4 @@ test.htm?
 #참고도서/시작하세요_도커_쿠버네티스
 
 ---
+

@@ -1,10 +1,9 @@
-﻿
----
-
-#web #network #language/html
-
-*hyper text markup language*
-
+﻿---
+title: '*hyper text markup language*'
+tags:
+  - 'web'
+  - 'network'
+  - 'language/html'
 ---
 
 # 현재의 HTML 표준과 그 특성
@@ -98,3 +97,4 @@ HTML 페이지는 다음과 같은 방법을 사용해 주석을 입력한다.
 #참고도서/모던_웹_디자인을_위한_HTML5_CSS3_입문 
 
 ---
+

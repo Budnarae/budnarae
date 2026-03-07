@@ -1,10 +1,8 @@
-﻿
----
-
-#language/JavaScript #web 
-
-_neo XMLHttpRequest_
-
+﻿---
+title: 'neo XMLHttpRequest'
+tags:
+  - 'language/JavaScript'
+  - 'web'
 ---
 
 # fetch
@@ -111,3 +109,4 @@ request.delete('https://jsonplaceholder.typicode.com/todos/1')
 #참고도서/모던_자바스크립트_Deep_Dive 
 
 ---
+
