@@ -67,6 +67,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.HardLineBreaks(),
       Plugin.R2Video({
         baseUrl: "https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev",
         prefix: "videos",

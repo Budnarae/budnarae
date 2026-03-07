@@ -17,12 +17,12 @@ _실제 사용 영상_
 
 - 개발 기간: 7주
 - 팀: Risk&Benefit (4인)
-- 담당 역할: **Flow Type 오로라 시스템 설계 및 구현** (벡터장 기반 유동 시뮬레이션)
 - 팀 멤버:
 	- [김민찬](https://github.com/mcminchan1021)
 	- [김진철](https://github.com/fuenell)
 	- [박선하](https://github.com/Sunha-i)
 	- [홍신화](https://github.com/budnarae)
+- 담당 역할: **Flow Type 오로라 시스템 설계 및 구현** (벡터장 기반 유동 시뮬레이션)
 - Fab: https://www.fab.com/listings/57cba704-cfa8-4014-b6c2-b582822ce3fc
 - 공식 문서: https://riskandbenefit.github.io/VolumetricAurora_Docs/docs
 
