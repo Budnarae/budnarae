@@ -14,6 +14,7 @@ _네트워크 기초_
 가상의 네트워크 망이 서로 잘 통신할 수 있도록 빈 칸에 알맞은 IP 주소를 채워 넣는 퍼즐 형식의 과제이다.
 
 - **과정**: 42 Seoul Inner Circle
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/NetPractice
 
 ---
 

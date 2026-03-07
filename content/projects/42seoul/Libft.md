@@ -1,4 +1,4 @@
----
+﻿---
 title: Libft
 date: 2026-03-05
 tags:
@@ -16,6 +16,7 @@ _C 기초_
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/Libft
 
 ---
 

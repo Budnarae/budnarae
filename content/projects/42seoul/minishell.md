@@ -19,6 +19,11 @@ _파일 입출력, 멀티 프로세스, 시그널 심화_
 - **개발 기간**: 2024.01 ~ 2024.03
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/minishell
+- **팀 멤버**:
+	- [정찬수](https://github.com/FunctionPointerXDD)
+	- [홍신화](https://github.com/budnarae)
+- **담당 역할**: 사용자의 Shell Script 입력을 파싱하는 로직 구현
 
 ---
 

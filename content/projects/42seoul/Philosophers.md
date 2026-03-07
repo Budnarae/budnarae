@@ -1,4 +1,4 @@
----
+﻿---
 title: Philosophers
 date: 2026-03-05
 tags:
@@ -19,6 +19,7 @@ _멀티 스레드_
 - **개발 기간**: 2024.02 ~ 2024.03
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/Philosophers
 
 ---
 

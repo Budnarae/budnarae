@@ -16,6 +16,7 @@ C 라이브러리의 `printf`를 **VA_ARG**를 활용하여 직접 구현하는 
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/ft_printf
 
 ---
 

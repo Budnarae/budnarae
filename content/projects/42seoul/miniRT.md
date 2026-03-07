@@ -19,6 +19,7 @@ _ray tracing_
 - **개발 기간**: 2024.06 ~ 2024.07
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/miniRT
 - **팀 멤버**:
 	- [정찬수](https://github.com/FunctionPointerXDD)
 	- [홍신화](https://github.com/budnarae)

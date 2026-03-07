@@ -16,6 +16,7 @@ VirtualBox를 사용하여 Linux 가상 환경을 띄운 후, 그 환경에서 �
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: Shell / Linux Configuration
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/Born2beRoot
 
 ---
 

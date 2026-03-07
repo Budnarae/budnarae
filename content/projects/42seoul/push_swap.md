@@ -1,4 +1,4 @@
----
+﻿---
 title: push_swap
 date: 2026-03-05
 tags:
@@ -18,6 +18,7 @@ _자료구조, 알고리즘_
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/push_swap
 
 ---
 

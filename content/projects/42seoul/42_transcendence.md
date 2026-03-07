@@ -15,6 +15,7 @@ _웹 프로그래밍 기초_
 플레이어들이 서로 **Pong 게임**을 즐길 수 있는 웹 서비스를 팀 단위로 개발하는 42 Seoul의 마지막 공통 과제이다. 프론트엔드, 백엔드, 실시간 통신을 하나의 서비스로 통합하며 풀스택 웹 개발 전반을 실습한다.
 
 - **과정**: 42 Seoul Inner Circle
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/42_transcendence
 
 ---
 

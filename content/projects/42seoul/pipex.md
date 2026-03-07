@@ -1,4 +1,4 @@
----
+﻿---
 title: pipex
 date: 2026-03-05
 tags:
@@ -16,6 +16,7 @@ _멀티 프로세싱, 프로세스 간 통신_
 
 - **과정**: 42 Seoul Inner Circle
 - **언어**: C
+- **GitHub**: https://github.com/Budnarae/42_innercircle_course/tree/main/pipex
 
 ---
 
