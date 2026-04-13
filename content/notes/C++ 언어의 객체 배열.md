@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'C++ 언어의 객체 배열'
 tags:
   - 'language/cpp'

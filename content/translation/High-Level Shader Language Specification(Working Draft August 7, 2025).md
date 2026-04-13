@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'High-Level Shader Language Specification(Working Draft August 7, 2025)'
 tags:
   - language/hlsl

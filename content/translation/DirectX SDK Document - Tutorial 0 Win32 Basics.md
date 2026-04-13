@@ -1,5 +1,5 @@
-﻿---
-title: 'DirectX SDK Document - Tutorial 0 Win32 Basics'
+---
+title: DirectX SDK Document - Tutorial 0 Win32 Basics
 tags:
   - directX11
   - translation

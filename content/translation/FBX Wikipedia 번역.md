@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'FBX Wikipedia 번역'
 tags:
   - translation

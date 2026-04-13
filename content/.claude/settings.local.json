@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/budnarae/Desktop/**)",
+      "Bash(cd ~/Desktop/\"Krafton Game Tech Lab Engine Project\")",
+      "Bash(cd ~/Desktop/\"Krafton Game Tech Lab Engine Project\"/Week14)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

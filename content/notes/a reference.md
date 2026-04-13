@@ -1,7 +1,5 @@
-﻿---
-title: 'a reference'
-tags:
-  - 'language/cpp'
+---
+title: a reference
 ---
 
 이 디렉토리는 다음의 자료들을 참고하여 작성되었습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Programming Guide for Direct3D 11'
 tags:
   - directX11
