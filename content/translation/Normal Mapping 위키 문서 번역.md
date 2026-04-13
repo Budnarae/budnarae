@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Normal Mapping 위키 문서 번역'
 tags:
   - graphics

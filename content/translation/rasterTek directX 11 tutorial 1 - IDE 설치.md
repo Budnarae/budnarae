@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'rasterTek directX 11 tutorial 1 - IDE 설치'
 tags:
   - directX11

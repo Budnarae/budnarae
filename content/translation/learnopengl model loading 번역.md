@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'learnopengl model loading 번역'
 tags:
   - graphics

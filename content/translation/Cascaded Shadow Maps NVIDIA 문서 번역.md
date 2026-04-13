@@ -1,4 +1,3 @@
-﻿---
 title: 'Cascaded Shadow Maps NVIDIA 문서 번역'
 tags:
   - graphics

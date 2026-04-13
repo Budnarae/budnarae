@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'explicit 키워드'
 tags:
   - 'language/cpp'
@@ -34,7 +34,6 @@ explicit SoSimple(const SoSimple &copy) : num1(copy.num1), num2(copy.num2)
 
 #참고도서/윤성우의_열혈_cpp_프로그래밍
 
----
 
 [^1]: [[복사 생성자]] 참고
 

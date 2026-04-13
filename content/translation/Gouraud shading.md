@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Gouraud shading'
 tags:
   - graphics

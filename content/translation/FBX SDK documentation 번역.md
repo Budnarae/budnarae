@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'FBX SDK documentation 번역'
 tags:
   - graphics
