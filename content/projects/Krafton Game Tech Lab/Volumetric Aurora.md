@@ -88,7 +88,7 @@ for each pixel_uv:
 
 _Noise 커튼 패턴 생성 핵심 흐름 (의사 코드)_
 
-![[ae9880400900e9088b9ef28d46772b41_MD5.mp4]]
+<video controls preload="metadata" style="width: 100%;" playsinline><source src="https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev/videos/ae9880400900e9088b9ef28d46772b41_MD5.mp4" type="video/mp4" /></video>
 _Noise 타입 오로라 생성 과정. UV 좌표 변위에 따라 커튼 형상이 변화한다_
 
 ## Spline Aurora
@@ -148,7 +148,7 @@ _Flow 벡터장 입자의 흐름(advection) + 더블 버퍼링 핵심 흐름 (�
 
 체크포인트 기능은 시뮬레이션 스냅샷을 저장/복원해, 씬 시작 직후 완성된 상태를 바로 보여주는 용도로 사용합니다.
 
-![[aa29967b217cf789208029a70d63c638_MD5.mp4]]
+<video controls preload="metadata" style="width: 100%;" playsinline><source src="https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev/videos/aa29967b217cf789208029a70d63c638_MD5.mp4" type="video/mp4" /></video>
 _Flow 타입의 Front Buffer 시각화. 벡터장의 영향을 받아 입자들이 실시간으로 이동한다_
 
 # 렌더링
@@ -156,10 +156,10 @@ _Flow 타입의 Front Buffer 시각화. 벡터장의 영향을 받아 입자들�
 최종 출력은 볼륨 레이마칭으로 계산합니다.
 카메라에서 광선을 발사하고 볼륨 내부를 일정 간격으로 전진하며 밀도와 색을 누적해, 평면 텍스처(빌보드/카드)를 여러 장 겹쳐 표현하는 방식보다 깊이감 있는 결과를 만듭니다.
 
-![[d04ab76ea7be66c45b2e18713024dd47_MD5.mp4]]
+<video controls preload="metadata" style="width: 100%;" playsinline><source src="https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev/videos/d04ab76ea7be66c45b2e18713024dd47_MD5.mp4" type="video/mp4" /></video>
 _레이 마칭 원리. 카메라에서 발사된 광선이 일정 간격으로 샘플링하며 볼륨 데이터를 누적한다_
 
-![[ddf2897e8d69a3f1520020425eab5059_MD5.mp4]]
+<video controls preload="metadata" style="width: 100%;" playsinline><source src="https://pub-44e440a3a3094ebdb6410c42138d1732.r2.dev/videos/ddf2897e8d69a3f1520020425eab5059_MD5.mp4" type="video/mp4" /></video>
 _광선이 전진할수록 형태를 갖추어 나가는 오로라_
 
 # 중첩 발광 제어

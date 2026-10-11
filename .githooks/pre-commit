@@ -1,0 +1,8 @@
+#!/bin/sh
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/convert-videos.ps1
+
+if [ $? -ne 0 ]; then
+  echo "Video conversion failed. Commit aborted."
+  exit 1
+fi
