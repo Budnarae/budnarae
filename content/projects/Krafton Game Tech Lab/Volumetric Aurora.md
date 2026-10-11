@@ -9,8 +9,6 @@ tags:
 
 %% <iframe width="681" height="383" src="https://www.youtube.com/embed/QUAofjz6ewg" title="Volumetric Aurora" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> %%
 
-![[Volumetric Aurora 시연 영상.mp4]]
-
 _실제 사용 영상_
 
 # 프로젝트 정보
