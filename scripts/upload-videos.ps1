@@ -43,6 +43,13 @@ $dest = "s3://$($env:R2_BUCKET)/$Prefix"
 Write-Host "Syncing: $VideosDir -> $dest"
 Write-Host "Endpoint: $endpoint"
 
+# PATH가 갱신 안 된 프로세스(예: Obsidian)에서 실행될 때를 대비해 PATH에 AWS CLI 경로 추가
+if (-not (Get-Command aws -ErrorAction SilentlyContinue)) {
+  $awsDir = Join-Path $env:ProgramFiles "Amazon\AWSCLIV2"
+  if (-not (Test-Path (Join-Path $awsDir "aws.exe"))) { throw "AWS CLI not found (PATH or $awsDir)" }
+  $env:Path = "$env:Path;$awsDir"
+}
+
 aws s3 sync $VideosDir $dest --endpoint-url $endpoint --delete
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
